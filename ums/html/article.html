@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <title>title</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <div id="header-placeholder"></div>
+    
+    <!-- Articles Section -->
+    <section id="articles">
+        <h2 class="section-title">Latest Articles & News</h2>
+        <div class="articles-container">
+            <div class="filter-buttons">
+                <button class="filter-btn active" data-category="all">All</button>
+                <button class="filter-btn" data-category="research">Research</button>
+                <button class="filter-btn" data-category="campus">Campus Life</button>
+                <button class="filter-btn" data-category="academic">Academic</button>
+                <button class="filter-btn" data-category="technology">Technology</button>
+            </div>
+            <div class="articles-grid" id="articlesGrid">
+                <!-- Articles will be populated by JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-placeholder"></div>
+
+    <script src="../js/inject.js"></script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>Forgot password</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--Ensures responsive design on mobile devices by setting the initial zoom level and screen width.-->
+        <link rel="stylesheet" href="../css/forgot.css">
+    </head>
+    <body>
+        <header class="top-header">
+            <div class="logo-container">
+                <a href="../html/index.html" class="logo-text">VertexU</a>
+                <a href="../html/login.html" class="login-link">Login</a>
+            </div>
+        </header>
+
+    <div class="forgot-pwd">  
+        <h2>Reset Password</h2>
+        <form>
+            <div class="input-box">
+                    <label for="cpwd">Current Password</label>
+                    <input type="password" id="cpwd" placeholder="Current Password" required>
+            </div>
+            <div class="input-box">
+                    <label for="newpwd">New Password</label>
+                    <input type="password" id="newpwd" placeholder="New Password" required>
+            </div>
+            <div class="input-box">
+                    <label for="confirmpwd">Confirm Password</label>
+                    <input type="password" id="confirmpwd" placeholder="Confirm Password" required>
+            </div>
+            <button type="submit" class="btn">Save</button>
+        </form>
+            
+    </div>
+    <script src="../js/script.js"></script>
+    </body>
+</html>

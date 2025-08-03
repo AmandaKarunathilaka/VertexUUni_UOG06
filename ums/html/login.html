@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--Ensures responsive design on mobile devices by setting the initial zoom level and screen width.-->
+    <title>Login</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.6.0/remixicon.min.css">
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo-top">
+                <a href="../html/index.html"><h2>VertexU</h2></a>
+            </div>
+        </div>
+    </nav>
+    <div class="login">
+        <form>   
+            <h2>Login</h2>
+            <div class="input-box">
+                <label for="username">Username</label>
+                <input type="text" name="username" placeholder="Username" required>    <!--Required- can't submit an empty field-->
+            </div>
+            <div class="input-box">
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="Password" required>  
+            </div>
+            <div class="showpwd">
+                 <label>
+                    <input type="checkbox" id="showpwd">
+                    Show Password
+                </label>
+                <a href="../html/forgotpwd.html">Forgot Password</a>
+            </div>
+            <button type="submit" class="btn">Login</button>
+            <div class="signup">
+                <p>Don't have an account? <a href="../html/signup.html">Register</a></p>
+            </div>   
+        </form>
+    </div>
+    <script src="../js/script.js"></script>
+</body>
+</html>

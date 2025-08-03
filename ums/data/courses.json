@@ -1,0 +1,113 @@
+[
+  {
+    "title": "Computer Science",
+    "description": "Explore programming, data structures, AI, and more.",
+    "link": "enrollment.html",
+    "category": "Computer Science"
+  },
+
+  {
+    "title": "Business Management",
+    "description": "Learn leadership, marketing, and financial strategy.",
+    "link": "enrollment.html",
+    "category": "Business Management"
+  },
+
+  {
+    "title": "Civil Engineering",
+    "description": "Study infrastructure design, structural analysis, and materials.",
+    "link": "enrollment.html",
+    "category": "Civil Engineering"
+  },
+
+  {
+    "title": "Python Programming",
+    "description": "Master syntax, OOP, file handling, and real-world applications.",
+    "link": "enrollment.html",
+    "category": "Computer Science"
+  },
+
+  {
+    "title": "Web Programming",
+    "description": "Build responsive websites using HTML, CSS, JavaScript.",
+    "link": "enrollment.html",
+    "category": "Computer Science"
+  },
+
+  {
+    "title": "Foundation of Artificial Intelligence",
+    "description": "Explore intelligent systems, ML basics, and neural networks.",
+    "link": "enrollment.html",
+    "category": "Computer Science"
+  },
+
+  {
+    "title": "Mechanical Engineering",
+    "description": "Study thermodynamics, fluid mechanics, and machine design.",
+    "link": "enrollment.html",
+    "category": "Engineering"
+  },
+
+  {
+    "title": "Data Science",
+    "description": "Learn data analysis, visualization, and machine learning techniques.",
+    "link": "enrollment.html",
+    "category": "Computer Science"
+  },
+
+  {
+    "title": "Marketing Strategy",
+    "description": "Explore branding, consumer behavior, and digital marketing.",
+    "link": "enrollment.html",
+    "category": "Business Management"
+  },
+
+  {
+    "title": "Database Management Systems",
+    "description": "Understand SQL, normalization, transactions, and DB architecture.",
+    "link": "enrollment.html",
+    "category": "Computer Science"
+  },
+
+  {
+    "title": "Cybersecurity",
+    "description": "Protect systems from threats, vulnerabilities, and attacks.",
+    "link": "enrollment.html",
+    "category": "Computer Science"
+  },
+
+  {
+    "title": "Human Resource Management",
+    "description": "Study recruitment, employee development, and labor laws.",
+    "link": "enrollment.html",
+    "category": "Business Management"
+  },
+
+  {
+    "title": "Environmental Science",
+    "description": "Learn about ecosystems, sustainability, and climate challenges.",
+    "link": "enrollment.html",
+    "category": "Science"
+  },
+
+  {
+    "title": "Mobile Application Development",
+    "description": "Build Android and iOS apps using Java, Kotlin, or Flutter.",
+    "link": "enrollment.html",
+    "category": "Computer Science"
+  },
+
+  {
+    "title": "Machine Learning",
+    "description": "Implement algorithms for prediction, classification, and AI.",
+    "link": "enrollment.html",
+    "category": "Artificial Intelligence"
+  },
+  
+  {
+    "title": "Graphic Design",
+    "description": "Master Adobe tools and visual communication principles.",
+    "link": "enrollment.html",
+    "category": "Design"
+  }
+]

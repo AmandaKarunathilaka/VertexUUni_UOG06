@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8"/> <!--character encoding to UTF-8 :- supports most characters/symbols worldwide-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--Ensures responsive design on mobile devices by setting the initial zoom level and screen width.-->
+    <title>title</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <!--Font Awesome cdn-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <h2><a href="index.html">VertexU</a></h2>
+            <div class="nav-links" id="nav-links">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                        <li><a href="about.html">About</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="faculty.html">Faculty</a></li>
+                        <li><a href="course.html">Courses</a></li></li>
+                        <li><a href="article.html">Articles</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="calendar.html">Calendar</a></li>
+                        <li><a href="login.html">Login</a>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <div class="main-text">
+                <h2><span id="typing-text"></span></h2>
+        </div>
+    </section>
+    <script src="../js/script.js"></script>
+</body>
+</html>

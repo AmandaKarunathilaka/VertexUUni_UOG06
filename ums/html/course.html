@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/><!--Ensures responsive design on mobile devices by setting the initial zoom level and screen width.-->
+    <title>Programs</title>
+    <link rel="stylesheet" href="../css/styles.css">
+</head>
+<body>
+
+    <div id="header-placeholder"></div>
+    
+    <!--Course Section-->
+        <section id="course" class="course">
+            <h2>Courses</h2>
+            <div class="course-search">
+                <div class="search-input-container">
+                    <input type="text" id="courseSearch" placeholder="Search course by name...">
+                    <button type="button" class="clear-search-btn" id="clearSearchBtn" title="Clear search">×</button>
+                </div>
+                <button type="button" class="search-btn" id="searchBtn" title="Search courses">
+                    <i class="ri-search-line">Search</i>
+                </button>
+            </div>
+
+            <div class="course-container" id="courseContainer">
+                <!--Courses will be loaded here via JS-->
+            </div>
+            
+        </section>
+
+        <div id="footer-placeholder"></div>
+
+        <script src="../js/inject.js"></script>
+        <script src="../js/script.js"></script>
+</body>
+</html>

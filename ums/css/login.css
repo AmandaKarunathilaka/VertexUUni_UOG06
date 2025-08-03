@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url(../resources/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+/* Logo at top-left */
+.logo-top {
+    position: absolute;
+    top: 20px;
+    left: 30px;
+}
+
+.logo-top a {
+    text-decoration: none;
+}
+
+.logo-top h2 {
+    color: white;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+
+.login {
+    width: 400px;
+    padding: 30px 40px;
+    background: rgba(255, 255, 255, 0.1); /* semi-transparent */
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37); /* soft shadow */
+    backdrop-filter: blur(10px); /* blur effect */
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+}
+
+.login h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.login .input-box {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.input-box label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 8px;
+    color: black;
+}
+
+.input-box input {
+    width: 100%;
+    height: 40px;
+    outline: none;
+    border: 2px solid black;
+    border-radius: 25px;
+    padding-left: 15px;
+}
+
+.input-box input::placeholder {
+    color: black;
+}
+
+.login .showpwd {
+    display: flex;
+    justify-content: space-between;
+    font-size: 15px;
+    margin-bottom: 20px;
+}
+
+.showpwd label {
+    display: flex;
+    align-items: center;
+    gap: 6px; /* add space between checkbox and text */
+    color: black;
+}
+
+.showpwd a {
+    color: black;
+    text-decoration: none;
+}
+
+.showpwd a:hover {
+    text-decoration: underline;
+}
+
+.login .btn {
+    width: 100%;
+    height: 40px;
+    font-size: 20px;
+    background-color: rgb(8, 116, 135);
+    color: white;
+    border-radius: 20px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    margin-bottom: 20px;
+}
+
+.login .btn:hover {
+    border: 2px solid white;
+}
+
+.login .signup {
+    font-size: 16px;
+    text-align: center;
+}
+
+.login .signup p a {
+    color: black;
+    text-decoration: none;
+}
+
+.login .signup p a:hover {
+    text-decoration: underline;
+}
